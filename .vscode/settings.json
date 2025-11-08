@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "AdOcode": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "thread": "cpp"
+    }
+}
