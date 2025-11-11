@@ -1,9 +1,10 @@
 #include <iostream>
 #include <cstdlib>
+#include "magic8.h"
 
 using namespace std;
 
-int magicka8() {
+int magic8() {
 
   // Your future is here
 
@@ -66,5 +67,5 @@ int magicka8() {
   
   }
 
-
+  return 0;
 }

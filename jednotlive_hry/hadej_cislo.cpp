@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdlib>
+#include "hadej_cislo.h"
 
 int hadej_cislo(){
     // Hádej číslo

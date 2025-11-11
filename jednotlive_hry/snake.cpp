@@ -5,6 +5,7 @@
 #include <termios.h>
 #include <unistd.h>
 #include <fcntl.h>
+#include "snake.h"
 
 // Funkce pro detekci stisku klávesy v Linuxu
 int kbhit(void) {

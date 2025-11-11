@@ -1,4 +1,5 @@
 #include <iostream>
+#include "sortinghat.h"
 
 int sorting_hat() {
 

@@ -1,9 +1,12 @@
-#include "backend_automatu.h"
-#include "hadej_cislo.cpp"
-#include "magic8.cpp"
-#include "snake.cpp"
-#include "sortinghat.cpp"
+#include "../backend_automatu.h"
+#include "../jednotlive_hry/hadej_cislo.h"
+#include "../jednotlive_hry/magic8.h"
+#include "../jednotlive_hry/snake.h"
+#include "../jednotlive_hry/sortinghat.h"
 //#include "tic-tac-toe.cpp"
+
+#pragma once
+
 int backend_automatu(){
     int vyberHry;
     cin >> vyberHry;
@@ -14,7 +17,7 @@ int backend_automatu(){
         hadej_cislo();
         break;
     case 2:
-        magicka8();
+        magic8();
         break;
     case 3:
         sorting_hat();
@@ -24,4 +27,5 @@ int backend_automatu(){
     default:
         break;
     }
+    return 0;
 }
