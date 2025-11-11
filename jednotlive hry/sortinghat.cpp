@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main() {
+int sorting_hat() {
 
   // The magic starts here
 

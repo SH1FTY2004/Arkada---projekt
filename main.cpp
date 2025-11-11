@@ -1,37 +1,21 @@
-#include <iostream>
-#include <chrono>
-#include <thread>
-#include <cstdlib>
+//co dela automat
 #include "animace.cpp"
+#include "backend_automatu.cpp"
+
+//jednotlive hry 
+#include "hadej_cislo.cpp"
+#include "magic8.cpp"
 #include "snake.cpp"
-//#include "sortinghat.cpp"
+#include "sortinghat.cpp"
 //#include "tic-tac-toe.cpp"
+
 using namespace std;
 
-void Hra1(){
-    cout << "hra cislo 1";
-}
-
-void Zapnuti_Hry() {
-    int vyberHry;
-    cin >> vyberHry;
-
-    switch (vyberHry)
-    {
-    case 1:
-        snake();
-        break;
-
-    default:
-        break;
-    }
-}
-
 // ───────────────────────────────────────────────────────────
-// MAIN — animace
+// MAIN - sem pisu pouze ja (PAVEL)
 // ───────────────────────────────────────────────────────────
 int main() {
     CelaAnimace();
-    Zapnuti_Hry();
+    backend_automatu();
     return 0;
 }

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 
-int main(){
+int hadej_cislo(){
     // Hádej číslo
     
     //int number;
